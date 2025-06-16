@@ -1,5 +1,3 @@
 
 
 JavaScript Learning Repository
-
-
