@@ -1,0 +1,27 @@
+Window object is a global object and this is the biggest object. it is a top in hierarchy model.
+global var and global method lies under the window.
+It is created by browser.
+
+window.open()
+window.close()
+console.log("mansi")
+window.console.log("mani")
+
+DOM: Document Object model
+html code convert into js object called document and overall model called dom.
+The Document Object Model (DOM) is a programming interface that allows you to manipulate 
+the structure, style, and content of web documents dynamically.
+  If you're looking for a solid tutorial, here are some great resources:
+
+
+<htm> =  Tag is convert by tokeniser it becomes tokens and token will convert into node 
+character= tag = token = node ==== DOM 
+
+BOM: Browser Object Model 
+Interation with browser except the html is called bom, like screen size.
+
+******Change Html*****
+
+fetch element _____
+
+

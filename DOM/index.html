@@ -1,11 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
+<p id="fpar">Firsr Para</p>
+<h1 id="fhea">First Heading </h1>
+<!-- document.getElementById("fhea")
+ document.querySelector("#fpar") -->
 
-<p id="demo"></p>
+<h2 class="c2">Class Access</h2>
+<!-- document.getElementByClassName("c2")
+ document.querySelector(".c2") 
+ query selector return only first class or id element and ignore all rest element
+ for all elements we use
+ document.querySelectorAll('c2'/ 'fpar')
+ -->
 
-<script>
-document.getElementById("demo").innerHTML = "Hello World!";
-</script>
+<!-- document.getElementByTagName("p") -->
 
+
+
+<!-- ********Update HtML**********
+ innerHTML = get/set
+ outerHTML
+ textContent
+ innerText -->
+<div id="man" class="name">
+    Mansi
+</div>
+<div id="gau" class="name">
+    <!-- let nam=$0
+     nam.innerHTML="<p> Panwar <p>"
+         -->
+    Gaurav
+</div>
+<div id="ayu" class="name">
+    Ayush 
+</div>
+
+<div id="div1">
+<p>This is paragraph
+
+    <span>Span Tag</span>
+</p>
+<p>Second Paragraph</p>
+</div>
+<!-- 
+let element=document.getElementById('div1')
+
+element.textContent = how you write the code
+'\nThis is paragraph\n\n    Span Tag\n\nSecond Paragraph\n'
+
+element.innerText = rendor on window
+'This is paragraph Span Tag\n\nSecond Paragraph' -->
+
+<!-- ***********Add Element**********
+ ---createElement()
+ .appendChild() -->
+
+ 
+
+
+
+
+
+
+    
 </body>
 </html>
