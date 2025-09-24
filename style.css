@@ -101,15 +101,9 @@ display: flex;
 
 
 
-
-
-
-
-
 .right-card{
     background-color: purple;
     padding: 40px 40px 40px 40px;
-    width: 50%;
     display: flex;
 flex-wrap: wrap;
 
